@@ -1,0 +1,178 @@
+2024-08-16 16:59:14,414 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-16 16:59:14,551 - ExpenseTracker - INFO - Main window displayed
+2024-08-16 17:04:01,090 - ExpenseTracker - INFO - Debug mode enabled
+2024-08-16 17:04:01,090 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-16 17:04:01,121 - ExpenseTracker - DEBUG - QApplication instance created
+2024-08-16 17:04:01,121 - ExpenseTracker - DEBUG - Database initialized
+2024-08-16 17:04:01,168 - ExpenseTracker - DEBUG - MainWindow instance created
+2024-08-16 17:04:01,231 - ExpenseTracker - INFO - Main window displayed
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Generating payoff plan
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Payoff method: Debt Avalanche
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Number of debts: 4
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Monthly payment: $600.0
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Calculating payoff plan
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Payoff plan calculated. Total months: 597
+2024-08-16 17:04:13,256 - ExpenseTracker - DEBUG - Displaying payoff plan
+2024-08-16 17:04:13,256 - ExpenseTracker - ERROR - Error generating payoff plan: max() iterable argument is empty
+Traceback (most recent call last):
+  File "C:\Users\aleks\PycharmProjects\PersonalFinanceApplication\ui\debt_payoff_planner.py", line 93, in generate_payoff_plan
+    self.display_payoff_plan(payoff_plan)
+  File "C:\Users\aleks\PycharmProjects\PersonalFinanceApplication\ui\debt_payoff_planner.py", line 165, in display_payoff_plan
+    self.plan_table.setItem(total_row, 4, QTableWidgetItem(str(max(debt['months'] for debt in payoff_plan))))
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: max() iterable argument is empty
+2024-08-16 17:06:18,004 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-16 17:06:18,162 - ExpenseTracker - INFO - Main window displayed
+2024-08-16 17:06:28,168 - ExpenseTracker - INFO - Payoff plan generated and displayed successfully
+2024-08-16 17:24:13,036 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-16 17:24:13,166 - ExpenseTracker - INFO - Main window displayed
+2024-08-16 17:24:40,603 - ExpenseTracker - INFO - Payoff plan generated and displayed successfully
+2024-08-16 21:11:07,007 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-16 21:11:07,164 - ExpenseTracker - INFO - Main window displayed
+2024-08-16 21:11:22,712 - ExpenseTracker - WARNING - Invalid monthly payment input
+2024-08-16 21:11:32,579 - ExpenseTracker - WARNING - Invalid monthly payment input
+2024-08-16 21:11:39,846 - ExpenseTracker - WARNING - Invalid monthly payment input
+2024-08-16 21:17:30,461 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-16 21:17:30,599 - ExpenseTracker - INFO - Main window displayed
+2024-08-16 21:17:49,123 - ExpenseTracker - WARNING - Invalid monthly payment input
+2024-08-16 21:17:57,313 - ExpenseTracker - WARNING - Invalid monthly payment input
+2024-08-16 21:18:03,018 - ExpenseTracker - INFO - Increased monthly payment to meet target date: $822.37
+2024-08-16 21:18:08,020 - ExpenseTracker - INFO - Payoff plan generated and displayed successfully
+2024-08-17 08:00:33,371 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-17 08:06:16,781 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-17 08:06:17,084 - ExpenseTracker - INFO - Main window displayed
+2024-08-17 08:20:33,834 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-17 08:20:34,009 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 11:55:29,677 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 11:55:30,053 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 13:43:02,841 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 13:43:02,964 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 13:48:47,570 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 13:48:47,688 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 13:52:38,495 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 13:52:38,623 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 14:08:05,251 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 14:08:37,858 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 14:08:37,979 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 14:09:59,366 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 14:09:59,485 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 14:12:28,852 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 14:12:28,970 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 14:23:29,056 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 14:23:29,180 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 14:27:53,573 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 14:27:53,706 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 15:00:17,885 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 15:00:18,001 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 15:05:53,284 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 15:05:53,407 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 15:19:39,269 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 15:19:39,379 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 15:59:56,222 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 15:59:56,338 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 16:18:56,431 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 16:18:56,545 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 16:26:40,360 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 16:26:40,488 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 16:27:12,890 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 16:27:13,013 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 19:21:58,705 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 19:21:58,827 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 19:26:43,004 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 19:26:43,137 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 19:42:12,257 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 19:49:47,223 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 19:49:47,358 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 20:09:17,884 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 20:09:18,063 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 20:12:43,769 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 20:12:43,890 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 20:13:46,713 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 20:13:46,833 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 20:15:42,238 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 20:15:42,363 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 21:26:25,937 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 21:26:49,679 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 21:26:49,975 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 21:30:13,099 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 21:30:13,422 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 21:51:15,396 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 21:51:15,702 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 22:10:03,007 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 22:12:35,195 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 22:12:35,524 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 22:23:01,166 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 22:23:01,465 - ExpenseTracker - INFO - Main window displayed
+2024-08-21 22:27:33,221 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-21 22:27:33,539 - ExpenseTracker - INFO - Main window displayed
+2024-08-22 09:30:00,407 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-22 09:30:00,863 - ExpenseTracker - INFO - Main window displayed
+2024-08-22 09:40:03,558 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-23 07:40:14,120 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-23 11:07:34,411 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-23 11:07:34,823 - ExpenseTracker - INFO - Main window displayed
+2024-08-23 11:08:29,174 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-23 11:08:29,591 - ExpenseTracker - INFO - Main window displayed
+2024-08-23 12:19:43,093 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-23 13:48:09,649 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-26 21:19:46,298 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 14:25:54,031 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 15:06:12,949 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 15:06:55,431 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 15:06:55,912 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 15:16:17,071 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 15:16:17,590 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 15:45:00,388 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 15:45:00,817 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 16:26:39,918 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 16:26:40,358 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 20:22:00,882 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 20:22:01,602 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 21:21:51,227 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 21:25:47,562 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 21:33:53,098 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 21:33:53,541 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 21:38:26,579 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 21:38:27,102 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 21:45:27,775 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 21:48:15,408 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 21:48:16,006 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 22:02:23,856 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 22:02:24,328 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 22:07:00,651 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-27 22:07:01,121 - ExpenseTracker - INFO - Main window displayed
+2024-08-27 22:10:06,488 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 07:17:21,441 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 07:23:12,713 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 07:23:13,318 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:12:20,705 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:15:14,921 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:15:15,515 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:17:51,771 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:19:31,066 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:19:31,485 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:25:48,547 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:25:49,057 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:41:21,234 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:41:21,766 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:45:27,544 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:45:27,984 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:48:32,664 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:48:33,109 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:53:46,507 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:53:46,946 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 12:55:53,564 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 12:55:54,004 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 13:08:19,186 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 13:08:19,631 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 13:17:36,028 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 13:18:26,881 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 13:18:27,839 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 17:27:29,575 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 17:27:30,036 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 18:27:19,026 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 18:27:19,677 - ExpenseTracker - INFO - Main window displayed
+2024-08-28 20:42:16,896 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-08-28 20:42:17,625 - ExpenseTracker - INFO - Main window displayed
+2024-09-03 15:05:18,457 - ExpenseTracker - INFO - Starting Expense Tracker application
+2024-09-03 15:05:19,279 - ExpenseTracker - INFO - Main window displayed
